@@ -114,10 +114,19 @@
   margin: 0px;
   padding: 0px;
 }
+.comment-author,
+.comment-author a {
+  font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif;
+  color: #336699 !important;
+  font-size: 12px !important;
+}
+.comment-author a:hover {
+  color: #464646 !important;
+}
 .comment-count-type {
   font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif;
   font-size: 12px !important;
-  color: #999999 !important;
+  color: #cccc33 !important;
   line-height: 1.5 !important;
   margin: 0px;
   padding: 0px;
@@ -1252,6 +1261,9 @@ ul.region_filter li a.active {
 .content_title h2.section-63 {
   color: #cccc33;
 }
+.content_title h2.section-6 {
+  color: #869296;
+}
 .content_title h2.section-27,
 .content_title h2.section-65,
 .content_title h2.section-66,
@@ -1649,6 +1661,13 @@ a.lower-section-subnav {
 }
 .section-63 .right-background {
   background-color: #fbfbef;
+}
+/* business */
+.section-6 h3 a {
+  color: #869296;
+}
+.section-63 .right-background {
+  background-color: #eff1f1;
 }
 .left-background {
   width: 419px;
@@ -2253,13 +2272,14 @@ body.latest_comments .section p.comment {
   margin-top: 0px;
   margin-bottom: 0;
   padding-top: 10px;
+  line-height: 15px;
 }
 div.latest-comments p.comment a,
 body.latest_comments .section p.comment a {
   color: #464646;
   font-weight: normal;
-  font-size: 12.5px;
-  line-height: 1.3em;
+  font-size: 11.5px;
+  display: inline;
   font-style: normal;
   padding: 0;
   margin: 0;
@@ -3470,4 +3490,9 @@ body.gallery_detail .list .item .thumbnail img {
 body.jfp_classifieds .content,
 body.jfp_deals .content {
   width: 100%;
+}
+/* Moderation */
+div.repr {
+  text-transform: none;
+  font-family: "droid-serif", Georgia, serif;
 }
