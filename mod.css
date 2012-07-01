@@ -1281,7 +1281,7 @@ ul.region_filter li a.active {
   margin-bottom: 5px;
 }
 .section.section_end ul li .colormaker {
-  padding: 3.5px;
+  padding: 0.5px 3.5px;
 }
 .section.section_end ul li a {
   /* h5 */
@@ -1305,6 +1305,9 @@ div.section_events {
   float: left;
   padding-bottom: 0.25em;
   overflow: visible;
+}
+.section_events h3 {
+  margin-bottom: 10px;
 }
 ul.section_events li {
   display: block;
@@ -1347,6 +1350,8 @@ ul.section_events li span.datetime {
 }
 .section_end p.more_events {
   width: 87%;
+  float: left;
+  margin: -10px 0 0;
 }
 .section_end p.more_events a {
   float: right;
