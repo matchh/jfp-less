@@ -709,8 +709,8 @@ h5 a:focus {
   top: 23px;
 }
 #subnav li.home-subnav a {
-  padding-right: 60px;
-  padding-left: 60px;
+  padding-right: 47px;
+  padding-left: 47px;
 }
 #subnav li.home-subnav.last {
   border-right: 2px solid transparent;
@@ -3388,10 +3388,17 @@ body.gallery_detail .content_title h2 {
   padding-top: 7px;
   color: #464646;
 }
+body.groups .group-display th,
+td {
+  border-bottom: 0;
+}
 body.gallery_detail .list .item .caption {
   background-color: #fff;
   /* Best lightest color */
 
+  padding: 10px 0 0 10px;
+  width: 95%;
+  float: left;
 }
 .gallery_photo_detail .previous_next .no_photo {
   font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif;
@@ -3403,9 +3410,21 @@ body.gallery_detail #page {
 body.gallery_detail #subnav {
   background-color: #e0e0e0;
 }
-body.gallery_detail .list .item .thumbnail img {
+body.gallery_detail .list .item .thumbnail img,
+body.gallery_detail .thumbnails .thumbnail img {
   border: 3px solid #f7f7f7;
   border-radius: 3px 3px 3px 3px;
+  float: left;
+}
+body.gallery_detail .list .item .thumbnail:hover,
+body.gallery_detail .thumbnails .thumbnail:hover {
+  border: 3px solid #e0e0e0;
+}
+body.gallery_detail .thumbnails .thumbnail img {
+  padding: 5px;
+}
+body.gallery_detail .content {
+  width: 670px;
 }
 /* CONTACT FORM
 ============================================================= */
