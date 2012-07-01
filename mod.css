@@ -35,7 +35,7 @@
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-align: center;
 }
 .section_tag a:hover {
@@ -51,7 +51,7 @@
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-align: center;
   text-align: left;
 }
@@ -163,7 +163,7 @@ p small,
 .category a {
   text-transform: uppercase;
   color: #d9d9d9 !important;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif !important;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif !important;
   font-size: 14px;
   font-weight: 500 !important;
 }
@@ -258,7 +258,7 @@ p,
   line-height: 1.6em;
 }
 h1 {
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
 }
 h6,
 ul,
@@ -275,7 +275,7 @@ h5 {
 }
 h2,
 h3 {
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -294,7 +294,7 @@ ul {
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-align: center;
   text-decoration: none;
   margin-left: 0;
@@ -349,7 +349,7 @@ h5 a:focus {
   font-size: 27px;
   line-height: 1.2em;
   text-transform: uppercase;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   font-weight: 500;
 }
 #nav ul li {
@@ -688,7 +688,7 @@ h5 a:focus {
   font-size: 18px;
   line-height: 1em;
   font-weight: 100;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-transform: uppercase;
   border-right: 2px solid #ffffff;
 }
@@ -794,7 +794,7 @@ h5 a:focus {
   padding: 10px;
 }
 .highlight h6 {
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
 }
 .highlight h2 a {
   font-family: "droid-serif", Georgia, serif;
@@ -860,7 +860,7 @@ body.homepage .breaking_news span.date {
 body.homepage .breaking_news span.breaking {
   text-transform: uppercase;
   color: #d9d9d9 !important;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif !important;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif !important;
   font-size: 14px;
   font-weight: 500 !important;
   color: #cc0033 !important;
@@ -1196,7 +1196,7 @@ ul.region_filter li.last {
 }
 ul.region_filter li a {
   color: #D0D0D0;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   font-size: 30px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1236,7 +1236,7 @@ ul.region_filter li a.active {
   color: #464646;
   font-weight: 600;
   font-size: 40px;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-transform: uppercase;
 }
 .content_title h2.section-8 {
@@ -1588,7 +1588,7 @@ div.three_blogs {
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-align: center;
   padding: 5px;
   font-size: 28px;
@@ -1696,7 +1696,7 @@ a.lower-section-subnav {
   -webkit-transform: rotate(-90deg);
   color: #999999;
   float: left;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   font-size: 20px;
   margin-left: -15px;
   margin-top: 45px;
@@ -1900,7 +1900,7 @@ body.entry_detail .content_title h3,
   font-size: 11px !important;
   text-transform: uppercase;
   color: #d9d9d9 !important;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif !important;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif !important;
   font-size: 14px;
   font-weight: 500 !important;
 }
@@ -2014,7 +2014,7 @@ div.recommended h3 {
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-align: center;
   text-align: left;
 }
@@ -2058,7 +2058,7 @@ body.story_detail .ui-tabs-nav li,
 #comment_form li a,
 .tabs li a {
   border: 0 none;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   font-size: 18px;
   font-weight: 600;
   padding: 5px 10px;
@@ -2211,7 +2211,7 @@ div.latest-comments ul.tabs-header {
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-align: center;
   line-height: 25px;
 }
@@ -2238,7 +2238,7 @@ div.latest-comments ul.tabs-header li a {
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-align: center;
   background: none repeat scroll 0 0 #ffffff !important;
   border: 0 none;
@@ -2459,7 +2459,7 @@ body.blog_entry_form .alt_button {
   border-radius: 3px;
   /* CSS3 */
 
-  background: #336699;
+  background: #548dc6;
   cursor: pointer;
   font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif;
   font-size: 13px;
@@ -2509,7 +2509,7 @@ button.alt_button:hover,
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-align: center;
   text-align: left;
 }
@@ -2589,7 +2589,7 @@ div#legacy-comments h1 {
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-align: center;
   text-align: left;
   border: 0;
@@ -2828,7 +2828,7 @@ body.events .content_title a.alt_button:hover {
   color: #fff;
 }
 body.event_detail section h3 {
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   color: #464646;
 }
 body.event_detail section li a {
@@ -3231,7 +3231,7 @@ div.sb-message a:visited {
   font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif;
 }
 .ui-datepicker-header {
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   text-transform: uppercase;
   color: #464646;
 }
@@ -3295,7 +3295,7 @@ div.sb-message a:visited {
 }
 .accordion .ui-state-active a {
   color: #464646;
-  font-family: "futura-pt-condensed", "futura", Lucida Grande, Lucida, sans-serif;
+  font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif;
   font-size: 18px;
   font-weight: 500;
   border-bottom: 1px dotted #444;
@@ -3417,7 +3417,7 @@ body.gallery_detail .list .item .thumbnail img {
   border-radius: 3px;
   /* CSS3 */
 
-  background: #336699;
+  background: #548dc6;
   cursor: pointer;
   font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif;
   font-size: 13px;
@@ -3495,4 +3495,27 @@ body.jfp_deals .content {
 div.repr {
   text-transform: none;
   font-family: "droid-serif", Georgia, serif;
+}
+/* Staffmember section
+============================================================ */
+body.staff_bio .section_wide h3 {
+  background: none repeat scroll 0 0 transparent;
+  border-bottom: 0;
+  border-top: 0;
+  color: #c3c3c3;
+  font-family: "futura-pt", Lucida Grande, Lucida, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  margin: 0 0 15px 0;
+}
+body.staff_bio .section_wrapper {
+  border-bottom: 0;
+}
+.content_spacer {
+  width: 100%;
+  display: block;
+  height: 40px;
 }

@@ -2112,7 +2112,7 @@ div.active-discussion h4 {
 .button, a.button, input.button, button, a.alt_button, input.alt_button, button.alt_button, .event_search_form input[type="submit"], body.entry_detail .alt_button, body.blog_entry_form .alt_button {
     border: 0;
     .rounded-corners;
-    background: @font-color-links;
+    background: @color-button;
     cursor: pointer;
     font-family: @font-family-highlight;
     font-size: 13px;
@@ -2131,7 +2131,7 @@ div.active-discussion h4 {
 
 .button:hover, a.button:hover, input.button:hover, button:hover, a.alt_button:hover, input.alt_button:hover, button.alt_button:hover, .event_search_form input[type="submit"]:hover {
     color:@white;
-    background: @font-color-link-hover;
+    background: @color-button-hover;
 }
 
 .pagination a, .pagination span {
@@ -3019,4 +3019,33 @@ div.repr {
     text-transform:none;
     font-family:@font-family-story;
 }
+
+/* Staffmember section
+============================================================ */
+
+body.staff_bio .section_wide h3 {
+
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 0;
+    border-top: 0;
+    color: #c3c3c3;
+    font-family: @font-family-base-headline;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+    margin:0 0 15px 0;
+}
+
+body.staff_bio .section_wrapper {
+    border-bottom:0;
+}
+
+.content_spacer {
+    width:100%;
+    display:block;
+    height:40px;
+}
+
  
