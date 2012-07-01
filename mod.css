@@ -2775,6 +2775,10 @@ form.link_form p.a {
 #footer .wrapper {
   border-top: 0;
 }
+#footer p a {
+  color: #ffffff;
+  text-decoration: underline;
+}
 /* EVENTS
 ======================================================== */
 .event_search_form .advanced_filters li label {
