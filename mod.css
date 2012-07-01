@@ -3542,6 +3542,10 @@ body.staff_bio .section_wide h3 {
 body.staff_bio .section_wrapper {
   border-bottom: 0;
 }
+body.staff_bio .section_wide .story_list h4,
+body.staff .section_wide .story_list h4 {
+  font-size: 22px;
+}
 .content_spacer {
   width: 100%;
   display: block;
