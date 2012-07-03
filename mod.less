@@ -2936,7 +2936,7 @@ body.groups .group-display th, td {
     border-bottom:0;
 }
 
-body.gallery_detail .list .item .caption {
+body.gallery_detail .item .caption {
     background-color: #fff; /* Best lightest color */
     padding: 10px 0 0 10px;
     width: 95%;
@@ -2956,22 +2956,87 @@ body.gallery_detail #subnav {
     background-color: @color-subnav;
 }
 
-body.gallery_detail .list .item .thumbnail img, body.gallery_detail .thumbnails .thumbnail img {
+body.gallery_detail .item {
+}
+
+body.gallery_detail .thumbnail-window {
+    width:690px;
+    margin-left:-10px;
+    padding:0;
+    position:relative;
+}
+
+body.gallery_detail #comments {
+    padding:0;
+}
+
+body.gallery_detail .block {
+    position:absolute;
+    width:160px;
+    border: 2px solid #f7f7f7;
+}
+
+body.gallery_detail .item .thumbnail img {
     border: 3px solid #f7f7f7;
-    border-radius: 3px 3px 3px 3px;
     float:left;
-}
-
-body.gallery_detail .list .item .thumbnail:hover, body.gallery_detail .thumbnails .thumbnail:hover {
-    border: 3px solid #e0e0e0;
-}
-
-body.gallery_detail .thumbnails .thumbnail img {
-    padding:5px;
 }
 
 body.gallery_detail .content {
     width: 670px;
+}
+
+body.gallery_detail .previous_next .no_photo {
+    background: none repeat scroll 0 0 #EEEEEE;
+    color: #777777;
+    font-size: 13px;
+    font-weight: bold;
+    height: 75px;
+    line-height: 18px;
+    margin: 0;
+    padding: 25px 10px 0;
+    text-align: center;
+    font-family:@font-family-highlight;
+    font-weight:normal;
+}
+
+body.gallery_detail .previous_next div {
+    float:left;
+    width:120px;
+}
+
+body.gallery_detail .previous_next .previous {
+    background: url("../images/arrows/less_than.gif") no-repeat scroll 0 50% transparent;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+body.gallery_detail .previous_next .next {
+    background: url("../images/arrows/greater_than.gif") no-repeat scroll 100% 50% transparent;
+    margin-left: 10px;
+    padding-right: 20px;
+}
+
+body.gallery_detail .previous_next {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 300px;
+}
+
+body.gallery_detail .previous_next, .gallery_photo_detail .previous_next {
+    padding:10px 0 20px 0;
+}
+
+body.gallery_detail .previous_next a img {
+    display: block;
+}
+
+body.gallery_detail .content_title p {
+    color: #999999;
+    font-family: @font-family-highlight;
+    font-size: 17px;
+    line-height: 17px;
+    margin: 10px 0 -5px;
 }
 
 /* CONTACT FORM
