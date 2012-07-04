@@ -1029,8 +1029,9 @@ ul.section_bands li span {
 .featured_blog_entries  {
     float:left;
     width:440px;
-    margin: 0;
+    margin: 0 0 20px 0;
     padding:0;
+    border-bottom:1px dotted #444;
     background: @color-background-content;
 }
 /*
@@ -1049,64 +1050,88 @@ ul.section_bands li span {
     border-bottom:1px dotted #444;
 }
 */
-
 .featured_blog_entries h4 a {
     font-size:21px;
     color: #555 !important;
+    line-height:24px;
 }
 
 .featured_blog_entries ul {
 margin-top:15px;
-border-bottom:1px dotted #444;
 }
+
+
 
 .featured_blog_entries li {
     border-bottom: 1px dashed #c0c0c0;
     margin: 0 0 6px 0px;
-    padding: 0 0 4px 70px;
+    padding: 0 0 4px 0px;
 }
 
 .featured_blog_entries li.last {
     border:0;
 }
 
-.featured_blog_entries li a {
+.featured_blog_entries li a.headline-small {
     line-height:11px !important;
     font-size:13px;
+    display:block;
+    float:left;
+    width:360px;
 }
 
-.featured_blog_entries span.first {
-    display: block;
+.featured_blog_entries span a {
+    width:80px;
     height: 15px;
-    margin: 10px 0 3px -1px;
-    width: 60px;
+    display:block;
+    float:left;
 }
 
-.featured_blog_entries li.blog-36, span.blog-36 {
-    background: url("../images/FLYBlogSMALL.png") no-repeat scroll 0 3px transparent;
+.featured_blog_entries span.first a {
+    clear: both;
+    display: block;
+    width: 100%;
+    margin:0 0 -1px;
 }
 
-.featured_blog_entries li.blog-39, span.blog-39 {
-    background: url("../images/FOODBlogSMALL.png") no-repeat scroll 0 3px transparent;
+span.blog-36 a  {
+    background: url("../images/FLYBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
+    color:transparent !important;
 }
 
-.featured_blog_entries li.blog-72, span.blog-72 {
-    background: url("../images/INTERNBlogSMALL.png") no-repeat scroll 0 3px transparent;
+span.blog-39 a {
+    background: url("../images/FOODBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
+    color:transparent !important;
 }
 
-.featured_blog_entries li.blog-35, span.blog-35 {
-    background: url("../images/JACKBlogSMALL.png") no-repeat scroll 0 3px transparent;
-}
-.featured_blog_entries li.blog-37, span.blog-37 {
-    background: url("../images/MUSICBlogSMALL.png") no-repeat scroll 0 3px transparent;
+span.blog-72 a {
+    background: url("../images/INTERNBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
+    color:transparent !important;
 }
 
-.featured_blog_entries li.blog-38, span.blog-38 {
-    background: url("../images/SPORTSBlogSMALL.png") no-repeat scroll 0 3px transparent;
+span.blog-35 a {
+    background: url("../images/JACKBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
+    color:transparent !important;
+}
+span.blog-37 a {
+    background: url("../images/MUSICBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
+    color:transparent !important;
 }
 
-.featured_blog_entries li.blog-79, span.blog-79 {
-    background: url("../images/POLITICSBlogSMALL.png") no-repeat scroll 0 3px transparent;
+span.blog-38 a {
+    background: url("../images/SPORTSBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
+    color:transparent !important;
+}
+
+span.blog-79 a {
+    background: url("../images/POLITICSBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
+    color:transparent !important;
+}
+
+.featured_blog_entries .lone-link {
+    float: right;
+    margin: -5px 0 0;
+    text-align: right;
 }
 
 
