@@ -126,7 +126,7 @@
 .comment-count-type {
   font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif;
   font-size: 12px !important;
-  color: #cccc33 !important;
+  color: #0CDFAE !important;
   line-height: 1.5 !important;
   margin: 0px;
   padding: 0px;
@@ -158,6 +158,7 @@ p small,
   color: #999999 !important;
   font-weight: 300 !important;
   font-size: 11px !important;
+  text-transform: none;
 }
 .category,
 .category a {
@@ -213,6 +214,11 @@ body {
 }
 .recommended {
   border-top: 0;
+}
+.item .thumbnail {
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
 }
 /* BASIC SECTION INFO
 ============================================================ */
@@ -835,6 +841,21 @@ h5 a:focus {
   width: 300px;
   text-align: center;
 }
+/* SIDEBAR CLASSIFIEDS AD 
+======================================================== */
+.classifieds_ad {
+  border: 0;
+  border-bottom: 1px dotted #444;
+}
+.classifieds_ad h3 {
+  margin-bottom: 10px;
+}
+.classifieds_ad iframe {
+  margin: 0;
+}
+.classifieds_ad .lone-link {
+  float: right;
+}
 /* HOMEPAGE BREAKING NEWS
 ============================================ */
 body.homepage .breaking_news {
@@ -880,15 +901,12 @@ body.homepage .breaking_news span.breaking {
 body.homepage .weather_forecast {
   background: none repeat scroll 0 0 #ffffff;
   float: left;
-  margin: 0 0 20px;
-  width: 300px;
+  margin: 0px 0 30px;
   padding: 0;
+  width: 210px;
 }
 body.homepage .weather_forecast ul.day {
-  width: 200px;
-}
-body.homepage .weather_forecast ul.day li {
-  float: left;
+  margin: -20px 0 0 -10px;
 }
 body.homepage .weather_forecast ul.day li.humidity {
   font-size: 11px;
@@ -898,33 +916,29 @@ body.homepage .weather_forecast ul.day li.wind {
   margin: 0 0 0 10px;
   font-size: 11px;
 }
-body.homepage .weather_forecast .future_forecast .item {
-  border-left: 0;
-  margin: -22px 0 0 0;
-  width: 200px;
+body.homepage .weather_forecast .future_forecast {
+  float: left;
 }
-body.homepage .weather_forecast .future_forecast .item ul {
-  margin: 0 0 0 -15px;
+body.homepage .weather_forecast .future_forecast .item {
+  border-left: 0 none;
+  margin: 5px 0 0 5px;
+  width: 100%;
 }
 body.homepage .weather_forecast ul.weather_tommorrow li {
   float: left;
   font-size: 13.5px;
-  font-weight: 300;
-  padding: 3px;
+  padding: 0 3px;
 }
 body.homepage .weather_forecast ul.weather_tommorrow li.weather_tommorrow {
-  padding: 1.5px 3px;
-}
-body.homepage ul.weather_tommorrow {
-  margin-left: 5px;
+  padding: 0 3px;
 }
 /* JFP DAILY
 =========================================================== */
 .jfp_daily {
-  border-bottom: 1px dotted #bf6000;
+  border-bottom: 1px dotted #cc0033;
 }
 .jfp_daily h3 {
-  border-top-color: #bf6000;
+  border-top-color: #cc0033;
   margin-bottom: 10px;
 }
 .jfp_daily article {
@@ -970,10 +984,9 @@ body.homepage ul.weather_tommorrow {
 /* HOMEPAGE NEWSLETTER SIGNUP FORM 
 =========================================================== */
 .newsletter-form {
-  margin-top: 1em;
   padding: 10px;
-  border-top: 3px solid #bf6000;
-  border-bottom: 1px dotted #bf6000;
+  border-top: 3px solid #ff6666;
+  border-bottom: 1px dotted #ff6666;
 }
 .newsletter-form:hover {
   background: #ffffff;
@@ -1001,10 +1014,10 @@ body.homepage ul.weather_tommorrow {
   color: #464646;
 }
 .newsletter-form input[type="email"] {
-  font-size: 11.5px;
+  font-size: 13px;
+  margin: 0 5px 0 0;
   padding: 4.3px;
-  width: 95%;
-  margin-bottom: 5px;
+  width: 65%;
 }
 .newsletter-form form {
   margin-bottom: 0;
@@ -1014,7 +1027,7 @@ body.homepage ul.weather_tommorrow {
 }
 .newsletter-form input[type="submit"] {
   font-size: 13px;
-  padding: 3.5px;
+  padding: 4px 5px 3px;
   width: auto;
 }
 /* HOMEPAGE TABLE OF CONTENTS
@@ -1391,25 +1404,12 @@ ul.section_bands li span {
   width: 440px;
   margin: 0 0 20px 0;
   padding: 0;
-  border-bottom: 1px dotted #444;
+  border-bottom: 1px dotted #cccc33;
   background: #ffffff;
 }
-/*
 .featured_blog_entries h3 {
-    background: none repeat scroll 0 0 transparent;
-    border-bottom: 0;
-    border-top: 0;
-    color: #999;
-    font-family: @font-family-base-headline;
-    font-size: 30px;
-    font-weight: 300;
-    text-align: left;
-    text-decoration: none;
-    text-transform: none;
-    margin:0 0 15px 0;
-    border-bottom:1px dotted #444;
+  border-top-color: #cccc33;
 }
-*/
 .featured_blog_entries h4 a {
   font-size: 21px;
   color: #555 !important;
@@ -1426,56 +1426,23 @@ ul.section_bands li span {
 .featured_blog_entries li.last {
   border: 0;
 }
+.featured_blog_entries .category img {
+  margin: 0 0 0 -8px;
+}
+.featured_blog_entries li a img {
+  float: left;
+  margin-right: 10px;
+  padding: 3.5px 0 0;
+}
 .featured_blog_entries li a.headline-small {
-  line-height: 11px !important;
-  font-size: 13px;
+  font-size: 12.5px;
   display: block;
   float: left;
   width: 360px;
 }
-.featured_blog_entries span a {
-  width: 80px;
-  height: 15px;
-  display: block;
-  float: left;
-}
-.featured_blog_entries span.first a {
-  clear: both;
-  display: block;
-  width: 100%;
-  margin: 0 0 -1px;
-}
-span.blog-36 a {
-  background: url("../images/FLYBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
-  color: transparent !important;
-}
-span.blog-39 a {
-  background: url("../images/FOODBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
-  color: transparent !important;
-}
-span.blog-72 a {
-  background: url("../images/INTERNBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
-  color: transparent !important;
-}
-span.blog-35 a {
-  background: url("../images/JACKBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
-  color: transparent !important;
-}
-span.blog-37 a {
-  background: url("../images/MUSICBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
-  color: transparent !important;
-}
-span.blog-38 a {
-  background: url("../images/SPORTSBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
-  color: transparent !important;
-}
-span.blog-79 a {
-  background: url("../images/POLITICSBlogSMALL.png") no-repeat scroll 0 0.5px transparent;
-  color: transparent !important;
-}
 .featured_blog_entries .lone-link {
   float: right;
-  margin: -5px 0 0;
+  margin: -8px 0 0;
   text-align: right;
 }
 /* -------------- LOWER SECTIONS ----------- */
@@ -1731,6 +1698,9 @@ body.homepage .dragdealer-wrapper .dragdealer-pagination {
   padding: 10px 0 5px 0;
   position: relative;
 }
+.latest_multimedia h3 {
+  border-top-color: #600060;
+}
 .homepage-multimedia {
   margin: 10px 0 0 0;
   list-style-type: none;
@@ -1786,8 +1756,7 @@ body.entry_detail .content_title {
 }
 body.story_detail .content_title h2,
 body.entry_detail .content_title h2,
-.content .title h2,
-body.staff_bio .content_title h2 {
+.content .title h2 {
   font-family: "droid-serif", Georgia, serif;
   text-transform: none;
   font-size: 35px;
@@ -1827,13 +1796,6 @@ body.entry_detail .content_title h3,
 .inline {
   background-color: #ffffff;
   border-bottom: 1px dashed #e0e0e0;
-}
-.inline_photo .byline {
-  font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif !important;
-  color: #999999 !important;
-  font-weight: 300 !important;
-  font-size: 11px !important;
-  color: #999999 !important;
 }
 .inline p {
   font-size: 11.5px !important;
@@ -1896,31 +1858,15 @@ body.entry_detail .content_title h3,
   color: #999999 !important;
   font-weight: 300 !important;
   font-size: 11px !important;
+  text-transform: none;
   margin-right: 10px;
   padding-right: 10px;
   border-right: 1px dashed #e0e0e0;
   float: left !important;
 }
-.content_info .byline a {
-  font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif !important;
-  color: #999999 !important;
-  font-weight: 300 !important;
-  font-size: 11px !important;
-  float: none;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-.content_info p.datetime {
+.content_info .datetime,
+.content_info .datetime a {
   float: left;
-  line-height: 17px;
-}
-.content_info p.datetime {
-  font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif !important;
-  color: #999999 !important;
-  font-weight: 300 !important;
-  font-size: 11px !important;
-}
-.content_info p.datetime a {
   font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif !important;
   color: #999999 !important;
   font-weight: 300 !important;
@@ -2258,15 +2204,6 @@ body.latest_comments .section_end h3.headline-list {
 body.latest_comments .section_end h3 a {
   text-transform: none;
 }
-body.latest_comments .section_end p.byline,
-body.latest_comments .section_end p.byline a {
-  font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif !important;
-  color: #999999 !important;
-  font-weight: 300 !important;
-  font-size: 11px !important;
-  display: inline;
-  font-size: 11px;
-}
 body.latest_comments .section_end a.comment-count-type {
   display: inline;
   font-size: 11px !important;
@@ -2288,17 +2225,6 @@ div.active-discussion ul li a {
 }
 div.active-discussion span.category {
   float: left;
-}
-div.active-discussion p.byline {
-  float: left;
-}
-div.active-discussion p.byline,
-div.active-discussion p.byline a {
-  font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif !important;
-  color: #999999 !important;
-  font-weight: 300 !important;
-  font-size: 11px !important;
-  margin-bottom: 20px;
 }
 div.active-discussion a.lone-link {
   display: block;
@@ -3493,7 +3419,8 @@ div.repr {
 }
 /* Staffmember section
 ============================================================ */
-body.staff_bio .section_wide h3 {
+body.staff_bio .section_wide h3,
+body.staff_story_archive .section_wide h3 {
   background: none repeat scroll 0 0 transparent;
   border-bottom: 0;
   border-top: 0;
@@ -3504,10 +3431,11 @@ body.staff_bio .section_wide h3 {
   text-align: left;
   text-decoration: none;
   text-transform: none;
-  margin: 0 0 15px 0;
+  margin: 0 0 25px 0;
 }
 body.staff_bio .section_wrapper {
   border-bottom: 0;
+  margin: 0 !important;
 }
 body.staff_bio .section_wide .story_list h4,
 body.staff .section_wide .story_list h4 {
@@ -3517,4 +3445,72 @@ body.staff .section_wide .story_list h4 {
   width: 100%;
   display: block;
   height: 40px;
+}
+body.staff_bio .content_title h2,
+body.staff_story_archive .content_title h2 {
+  font-family: "droid-serif", Georgia, serif;
+  text-transform: none;
+  font-size: 35px;
+  line-height: 32px;
+  padding-top: 7px;
+  color: #464646;
+  text-transform: none;
+  padding: 0;
+}
+/* BLOG ADS
+==================================== */
+div#adspot_64926213.adspot {
+  background-color: #FFFFFF !important;
+  border-color: #555555 !important;
+  border-spacing: 0 !important;
+  border-style: solid solid dotted !important;
+  border-width: 3px 0 1px !important;
+  font-size: 10pt !important;
+  overflow: hidden !important;
+  padding: 10px 0 !important;
+  width: 300px !important;
+}
+div#adspot_64926213 .adspot_head {
+  font-family: "futura-pt", Lucida Grande, Lucida, sans-serif !important;
+  font-size: 12pt !important;
+  font-style: normal!important;
+  font-weight: bold !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  color: #555;
+}
+div#adspot_64926213 a.adspot_link:link,
+div#adspot_64926213 a.adspot_link:visited,
+div#adspot_64926213 a.adspot_adurl:link,
+div#adspot_64926213 a.adspot_adurl:visited {
+  color: #336699 !important;
+  font-size: 10pt !important;
+  font-style: italic !important;
+  text-decoration: none !important;
+  font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif !important;
+}
+div#adspot_64926213 div.adspot_link {
+  margin-top: 5px;
+  text-align: center;
+  width: 300px !important;
+}
+/* LAYOUTS 
+================================================ */
+body.layout_detail .content_title h2 {
+  font-family: "droid-serif", Georgia, serif;
+  text-transform: none;
+  font-size: 35px;
+  line-height: 32px;
+  padding-top: 7px;
+  color: #464646;
+}
+body.layout_detail .content_title p {
+  color: #999999;
+  font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 21px;
+  margin: 10px 0 0;
+  text-transform: none;
 }
