@@ -864,29 +864,38 @@ body.homepage .breaking_news {
   margin-bottom: 20px;
   border-top: 3px solid #cc0033;
   border-bottom: 1px dotted #cc0033;
+  float: left;
+  width: 660px;
 }
 body.homepage .breaking_news h3 {
-  margin: 0;
+  margin: 0 0 0 10px;
+  float: left;
+  width: 80%;
 }
-body.homepage .breaking_news a {
+body.homepage .breaking_news h3 a {
   font-family: "droid-serif", Georgia, serif;
   color: #464646;
   line-height: 17px !important;
   margin-bottom: 4px !important;
   text-transform: none;
+  font-size: 18.5px;
+  line-height: 21px !important;
+  color: #333333 !important;
 }
 body.homepage .breaking_news a:hover,
 body.homepage .breaking_news a.hover {
   color: #cc0033 !important;
 }
-body.homepage .breaking_news span.date {
+body.homepage .breaking_news .date {
   font-family: "ff-meta-web-pro", Lucida Grande, Lucida, sans-serif !important;
   color: #999999 !important;
   font-weight: 300 !important;
   font-size: 11px !important;
   text-transform: none;
+  margin-left: 10px;
+  line-height: 10px;
 }
-body.homepage .breaking_news span.breaking {
+body.homepage .breaking_news .breaking {
   text-transform: uppercase;
   color: #d9d9d9 !important;
   font-family: "futura-pt-condensed", Lucida Grande, Lucida, sans-serif !important;
@@ -895,6 +904,8 @@ body.homepage .breaking_news span.breaking {
   color: #cc0033 !important;
   font-size: 21px;
   font-weight: 600 !important;
+  float: left;
+  line-height: 20px;
 }
 /* HOMEPAGE WEATHER
 ======================================================= */
@@ -1623,7 +1634,7 @@ body.homepage .dragdealer {
   border-top: 3px solid #336699;
   border-bottom: 1px dotted #336699;
   height: 390px !important;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   width: 440px !important;
 }
 body.homepage .carousel {
@@ -1659,9 +1670,11 @@ body.homepage .dragdealer-slide-title p {
   padding: 7px 0 0;
 }
 body.homepage .dragdealer-wrapper .dragdealer-pagination {
-  background-color: #FFFFFF;
-  position: absolute;
-  top: 370px;
+  background: none repeat scroll 0 0 transparent;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -25px;
 }
 .dragdealer-wrapper .dragdealer-pagination li a {
   background: none repeat scroll 0 0 #ffffff;
